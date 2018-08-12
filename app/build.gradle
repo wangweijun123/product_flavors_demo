@@ -21,7 +21,8 @@ android {
 
     productFlavors {
         qiku {
-
+            // 配置资源目录,默认的会被添加
+            resConfigs "zh"
         }
 
         qikuAbroad {
